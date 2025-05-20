@@ -1,2 +1,1 @@
-Hi, I'm Kritika Bindal
-Visit : https://kritikabindal.netlify.app/
+https://kritikabindal.netlify.app/
