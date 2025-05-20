@@ -1,0 +1,418 @@
+
+
+html {
+  -webkit-font-smoothing: antialiased;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  color: #6b6b6b;
+  overflow-x: hidden;
+}
+
+a,
+button {
+  transition: all 0.3s ease;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.tm-bg-black-transparent {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.tm-bg-white-transparent {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.tm-bg-green {
+  background-color: #98cb00;
+}
+
+.tm-bg-orange {
+  /* background-color: #944219; */
+  background-image: url("/img/portfolio-img-2.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tm-bg-blue {
+  /* background-color: #3398cc; */
+  background-image: url("/img/download.jpg");
+  object-fit: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.tm-bg-dark-gray {
+  background-color: #676767;
+}
+
+/*
+  Welcome section
+*/
+#tmWelcome {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+.tm-brand-container-outer {
+  margin-top: -400px;
+}
+
+.tm-brand-container-inner {
+  max-width: 300px;
+  width: 100%;
+  /* margin-top: -200px; */
+}
+
+.tm-brand-container {
+  padding: 20px 0px;
+}
+
+.tm-brand-name {
+  font-size: 3.8rem;
+}
+
+.tm-brand-description {
+  font-size: 1.4rem;
+}
+.row h1 {
+  margin-bottom: 1.5rem;
+  margin-left: 0.9rem;
+}
+.parallax-window {
+  min-height: 1100px;
+  background: transparent;
+}
+.tm-brand-logo {
+  max-width: 200px; /* Adjust the max width */
+  height: auto; /* Maintain aspect ratio */
+}
+
+#tmContact {
+  min-height: 1197px;
+}
+
+.tm-welcome-container {
+  min-height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+}
+
+.tm-welcome-title {
+  margin-bottom: 10px;
+}
+.about {
+  color: #000;
+  font-size: 1.5rem;
+  font-weight: 900;
+  padding-top: 10px;
+}
+
+.tm-welcome-left {
+  padding-right: 30px;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+
+.tm-welcome-left-col {
+  display: flex;
+  align-items: center;
+}
+
+.tm-welcome-right {
+  color: white;
+  background-color: #986665;
+  padding: 70px 30px 70px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tm-welcome-icon {
+  margin-bottom: 50px;
+  display: block;
+  text-align: center;
+}
+.profile-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  height: auto;
+}
+.profile-img img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+/*
+  Portfolio section
+*/
+
+#tmPortfolio {
+  padding-top: 40px;
+}
+
+.tm-portfolio-item {
+  display: flex;
+  /* align-items: center; */
+  margin-bottom: 50px;
+}
+
+.tm-portfolio-name {
+  width: 350px;
+  height: 220px;
+  font-size: 2rem;
+  padding: 70px 95px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+
+.tm-portfolio-description {
+  width: 100%;
+  padding: 0px 45px;
+}
+.exp {
+  margin-top: 1.2rem;
+}
+.tm-portfolio-description h3 {
+  margin-top: 0;
+}
+
+.tm-text-green {
+  color: #98cb00;
+}
+
+.tm-text-orange {
+  margin-top: 0.7rem;
+  color: #944219;
+}
+.padding-left {
+  padding-left: 1rem;
+}
+
+.tm-text-blue {
+  color: #3398cc;
+}
+
+.tm-text-dark-gray {
+  color: #676767;
+}
+
+.tm-title-small {
+  font-size: 1.3rem;
+}
+
+p {
+  line-height: 1.8;
+}
+
+/*
+  Contact section
+*/
+.project-img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* padding: 6px; */
+  width: 160px;
+  height: 100px;
+  margin: 0 auto;
+
+  /* border-radius: 50%;
+  border:2px solid #986665; */
+}
+.project-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  /* padding: 10px; */
+}
+
+#tmContact {
+  padding-top: 95px;
+}
+.project-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+}
+
+.tm-contact-item {
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+
+  width: 33.3334%;
+  max-width: 345px;
+  height: auto;
+  min-height: 380px;
+  margin-right: 35px;
+  background-color: white;
+  padding: 20px 34px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.tm-contact-item:hover {
+  background-color: rgba(128, 128, 128, 0.2);
+}
+.tm-contact-item h2 {
+  margin-top: 1rem;
+  color: #944219;
+}
+.tm-contact-item h5 {
+  line-height: 2rem;
+  font-weight: 500;
+}
+.tm-contact-item:last-child {
+  margin-right: 0;
+}
+
+.tm-contact-items-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 130px;
+}
+
+.tm-contact-item-icon {
+  margin-bottom: 45px;
+  width: 100%;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#tmContactForm {
+  width: 100%;
+  max-width: 680px;
+  padding: 45px 45px 30px;
+  margin-bottom: 95px;
+}
+
+.form-group {
+  max-width: 355px;
+}
+
+.form-control {
+  background: transparent;
+  border-color: #999999;
+  padding: 15px 10px;
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.tm-btn-submit {
+  background-color: #999999;
+  padding: 12px 30px;
+  font-size: 1.2rem;
+}
+
+.tm-btn-submit:focus,
+.tm-btn-submit:hover {
+  background-color: #676767;
+}
+
+.tm-copyright-text {
+  margin-bottom: 30px;
+}
+
+.tm-link {
+  color: #676767;
+}
+
+@media (max-width: 1054px) {
+  .tm-contact-item-icon {
+    margin-bottom: 15px;
+  }
+}
+
+@media (max-width: 991px) {
+  .tm-contact-items-container {
+    flex-direction: column;
+  }
+
+  .tm-contact-item {
+    width: 80%;
+    max-width: 680px;
+    min-height: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+  }
+
+  .tm-contact-item:last-child {
+    margin-right: auto;
+    margin-bottom: 0;
+  }
+
+  #tmContactForm {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (max-width: 730px) {
+  .tm-welcome-container {
+    /* min-height: 400px; */
+    position: relative;
+    /* bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    align-items: stretch; */
+  }
+  .tm-portfolio-item {
+    flex-direction: column;
+  }
+
+  .tm-portfolio-name {
+    justify-content: center;
+  }
+
+  .tm-portfolio-name,
+  .tm-portfolio-description {
+    width: 100%;
+  }
+
+  .tm-portfolio-description {
+    padding: 20px 30px;
+  }
+}
+
+@media (max-width: 572px) {
+  .tm-brand-container {
+    padding: 45px;
+  }
+}
+
+@media (max-width: 443px) {
+  .tm-brand-name {
+    font-size: 3rem;
+  }
+
+  .tm-brand-container {
+    padding: 25px;
+  }
+}
